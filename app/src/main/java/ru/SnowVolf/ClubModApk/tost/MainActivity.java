@@ -22,7 +22,8 @@ private EditText jvsrc;//объявляем edittext
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        jvsrc = (EditText) findViewById(R.id.text_java);//иначе будет NullPointerException
+        //иначе будет NullPointerException
+        jvsrc = (EditText) findViewById(R.id.text_java);
     }
     @Override
     //объявляем меню

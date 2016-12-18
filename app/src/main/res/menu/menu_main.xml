@@ -8,6 +8,6 @@
         android:icon="@drawable/ic_clipboard" />
     <item android:title="GitHub"
         android:id="@+id/git"
-        android:icon="@drawable/ic_git"
+        android:icon="@mipmap/ic_git"
         android:showAsAction="always" />
 </menu>
