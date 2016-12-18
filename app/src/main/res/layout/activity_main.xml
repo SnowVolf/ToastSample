@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ru.SnowVolf.ClubModApk.tost.MainActivity">
+
+    <Button
+        android:id="@+id/tost"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/tost"
+        android:onClick="SimpleTost"/>
+
+    <Button
+        android:id="@+id/html_tost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tost"
+        android:text="@string/tost_html"
+        android:onClick="HtmlTost"/>
+
+    <Button
+        android:id="@+id/colored_tost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tost_color"
+        android:layout_below="@+id/html_tost"
+        android:onClick="HtmlColorTost"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/colored_tost"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <!--<TextView
+            android:id="@+id/text_smali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="smali" />-->
+
+        <EditText
+            android:id="@+id/text_java"
+            android:text="@string/java"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/snow_volf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

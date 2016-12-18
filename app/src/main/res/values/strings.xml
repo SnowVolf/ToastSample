@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Toast Sample</string>
+    <string name="java">Нажмите на кнопку, чтобы увидеть реализацию метода на Java</string>
+    <string name="sim_tst" formatted="false">Toast.makeText(getApplicationContext(),\n\"Просто тост\",Toast.LENGTH_LONG).show();</string>
+    <string name="html_tst" formatted="false"><![CDATA[Toast.makeText(getApplicationContext(), Html.fromHtml(\"Просто тост с <tt>Html</tt> <b>оформлением</b>\"),  Toast.LENGTH_LONG).show();]]></string>
+    <string name="color_tst" formatted="false"><![CDATA[Toast.makeText(getApplicationContext(), Html.fromHtml("<font color=\"#2196f3\"><i>Цветной</i> текст с <s>оформлением</s></font>),\nToast.LENGTH_LONG).show();]]></string>
+    <string name="snow_volf">Артем \'Snow Volf\' Жиганов</string>
+    <string name="tost">Тост</string>
+    <string name="tost_html">Тост с оформлением</string>
+    <string name="tost_color">Цветной тост с оформлением</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\ProjectX\ToastSample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1a9b13969d8aa472c857c2f0206fa6a83126c80b">
+        <dex dex="C:\ProjectX\ToastSample\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_581a51b0983a50855226d160fc19af32e095c49a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\ProjectX\ToastSample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3e4478d9dfe5a29f612045107cb768a363a9522e">
+        <dex dex="C:\ProjectX\ToastSample\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_23adb5ae986b5c40ecf1f00ba4555a4b72f63939\classes.dex" />
+    </item>
+
+</items>

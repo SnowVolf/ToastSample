@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Скопировать в буфер"
+        android:showAsAction="always"
+        android:id="@+id/text2clip"
+        android:icon="@drawable/ic_clipboard" />
+    <item android:title="GitHub"
+        android:id="@+id/git"
+        android:icon="@drawable/ic_git"
+        android:showAsAction="always" />
+</menu>
